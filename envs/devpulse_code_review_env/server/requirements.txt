@@ -1,0 +1,7 @@
+﻿agno
+openai
+httpx
+feedparser
+streamlit>=1.30
+pydantic
+openenv-core

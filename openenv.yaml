@@ -1,0 +1,26 @@
+name: devpulse-code-review-env
+version: 1.0.0
+description: OpenEnv environment for code review tasks using devpulse signal intelligence
+tasks:
+  - name: easy
+    description: Score relevance of at least 3 signals (incremental rewards)
+  - name: medium
+    description: Assess risks on at least 5 signals (penalize loops)
+  - name: hard
+    description: Synthesize intelligence with prior actions (full pipeline)
+observation_space:
+  type: object
+  properties:
+    task: {type: string}
+    signals: {type: array}
+    current_step: {type: integer}
+    completed_actions: {type: array}
+action_space:
+  type: object
+  properties:
+    type: {type: string}
+    signal_index: {type: integer}
+reward_space:
+  type: number
+  minimum: 0.0
+  maximum: 1.0
