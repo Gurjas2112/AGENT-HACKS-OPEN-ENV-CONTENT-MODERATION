@@ -1,4 +1,4 @@
-# AGENT-HACKS-OPEN-ENV-CUSTOMER-SERVICE-AGENT
+# AGENT-HACKS-OPEN-ENV-CONTENT-MODERATION
 
 Complex environment where agents resolve multi-step queries using external tools and APIs. This OpenEnv environment adapts devpulse_ai for code review tasks with three difficulty levels: easy (relevance scoring), medium (risk assessment), and hard (synthesis).
 
